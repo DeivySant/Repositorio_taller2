@@ -1,6 +1,7 @@
 print("! Bienvenidos a la pizzeria Bella Napoli ¡")
 name = input("Regalame tu nombre para tener el gusto de atenderte .")
 print(f"ok! {name} , selecciona una opcion por favor : \n 1. Pizza vegetariana \n 2. Pizza NO vegetariana ")
+
 opcion = int(input())
 
 if (opcion == 1):
